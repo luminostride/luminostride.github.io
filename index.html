@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+<link rel="stylesheet" href="styles.css">
+<title>Rev's admin script</title>
+<meta content="Rev's Admin" property="og:title" />
+<meta content="A website for my admin script!" property="og:description" />
+<meta content="https://abhisheknaiiduh.github.io/revs-admin/" property="og:url" />
+
+<body>
+    <div class="bdiv">
+        <h1 style="text-align: center;">Revvy's Admin</h1>
+        <div class="ddiv">
+            <p style="margin: 5px;margin-bottom: 2px;padding-top: 5px;">A universal admin script with 34 commands supports custom plugins, which can be found on <a href="https://discord.gg/gyYTywnpug">my Discord server</a>. This is still a work in progress.</p>
+            <table width=" 99.5% " style="margin: auto; ">
+                <tr>
+                    <td>Script:</td>
+                    <td width="10%">Source:</td>
+                </tr>
+                <tr>
+                    <td>
+                        <textarea id="Loadstring" title="Click to Copy" readonly>getgenv().cmdbarprefix = Enum.KeyCode.Minus
+getgenv().selectedprefix = '>'
+loadstring(game:HttpGet("https://raw.githubusercontent.com/abhisheknaiiduh/revs-admin/main/universal%20admin",true))()</textarea>
+                    </td>
+                    <td>
+                        <button id="githSource" class="bttn " width="50px " title="Admin Source " style="background-color: rgb(0, 0, 0);border-radius: 10px;height: 50px;margin: auto; ">
+                            <img src="imgs/github-icon.png " width="35px ">
+                        </button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="cdiv">
+            <table width="90%">
+                <tr>
+                    <td><img src=" imgs/why.png" height="240px "></td>
+                    <td><img src="imgs/why (2).png" height="240px "></td>
+                    <td><img src=" imgs/why (3).png" height="240px "></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+<footer>
+    <button id="Discord" class="bttn " width="50px " title="Discord Server " style="background-color: blueviolet;border-radius: 10px;height: 50px;margin: auto; ">
+        <img src="imgs/dc_icon.png" width="35px ">
+    </button>
+    <button id="Youtube" class="bttn " width="50px " title="Youtube Channel " style="background-color: rgb(255, 255, 255);border-radius: 10px;height: 50px; ">
+        <img src="imgs/youtube-icon.png" width="35px ">
+    </button>
+</footer>
+<script src="index.js"></script>
+
+</html>
